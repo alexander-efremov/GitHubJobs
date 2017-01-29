@@ -1,4 +1,5 @@
-﻿using Core.ViewModels;
+﻿using System;
+using Core.ViewModels;
 using MugenMvvmToolkit;
 
 namespace Core
