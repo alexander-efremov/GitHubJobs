@@ -1,8 +1,11 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>netcoreapp1.1</TargetFramework>
+    <TargetFramework>netstandard1.0</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
-    <Folder Include="ViewModels\" />
+    <ProjectReference Include="..\Mvvm\Core\MugenMvvmToolkit.Core(NetStandard)\MugenMvvmToolkit.Core(NetStandard).csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Update="NETStandard.Library" Version="1.6.1" />
   </ItemGroup>
 </Project>
